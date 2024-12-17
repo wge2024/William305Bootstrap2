@@ -20,3 +20,13 @@
     font-size: 1.5em; /* Example: Smaller than title */
     font-style: italic; /* Example: Italic for stylistic choice */
   }
+
+  lite-youtube {
+    display: block;
+    margin: 0 auto;
+    width: 100%;         /* Full width of parent */
+    max-width: 720px;    /* Optional: Limit max width */
+}
+
+
+  
