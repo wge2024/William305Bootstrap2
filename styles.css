@@ -1,3 +1,81 @@
+/* Navbar container */
+.navbar-custom {
+  background-color: #f4e1d2; /* Creamy Beige background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  border-bottom: none; /* Clean look */
+}
+
+/* White highlight for brand and links container */
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+  color: #6c4f3d; /* Warm coffee brown for text */
+  font-weight: 500; /* Slightly bold */
+  transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+.navbar-custom .navbar-brand {
+  background-color: white; /* White highlight behind the brand */
+  padding: 5px 10px; /* Add some padding */
+  border-radius: 4px; /* Subtle rounded corners */
+}
+
+/* Navbar link hover effect */
+.navbar-custom .nav-link:hover {
+  color: #4a3224; /* Darker coffee brown */
+  background-color: white; /* Add white background on hover */
+  padding: 5px 10px; /* Increase padding for hover */
+  border-radius: 4px; /* Consistent rounded corners */
+  text-decoration: none; /* No underline */
+}
+
+/* Navbar toggler (hamburger) */
+.navbar-custom .navbar-toggler {
+  border-color: rgba(0, 0, 0, 0.1); /* Light gray border */
+}
+
+.navbar-custom .navbar-toggler-icon {
+  color: #e07a5f; /* Softer, transparent brown */
+  border-radius: 50%; /* Circular icon for a softer look */
+  width: 24px;
+  height: 24px;
+}
+
+/* Active or focused navbar link */
+.navbar-custom .nav-link.active {
+  color: #4a3224; /* Darker coffee brown */
+  background-color: #ffffff; /* White background for active link */
+  border-radius: 4px;
+  padding: 5px 10px; /* Consistent padding */
+}
+
+
+/* Title Section */
+.title-section {
+  background: linear-gradient(135deg, #f9f9f9, #ffffff); /* Light gradient for freshness */
+  padding: 20px 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Title Heading */
+.title-heading {
+  color: #e07a5f; /* Terracotta Orange for vibrancy */
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Title Subheading */
+.title-subheading {
+  color: #6c4f3d; /* Warm Coffee Brown remains for contrast */
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+
+
+
+
 /* Styling for the Material Icons Container */
 .card-icon-container {
   height: 180px;
