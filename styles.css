@@ -1,3 +1,25 @@
+/* Styling for the Material Icons Container */
+.card-icon-container {
+  height: 180px;
+  background-color: #f4e1d2; /* Creamy Beige background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling for Material Icons */
+.icon-style {
+  font-size: 80px;
+  color: #8e735b; /* Subtle earthy brown for the icons */
+  margin: 0 10px; /* Space between icons */
+}
+
+/* Button Styling */
+.btn-food {
+  background-color: #8e735b; /* Earthy brown color for the button */
+  color: white;
+}
+
 .hero-image img {
     width: 100%;
     height: auto;
